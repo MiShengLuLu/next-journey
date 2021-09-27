@@ -1,0 +1,33 @@
+{
+  "name": "next-journey",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11.3.0",
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "framer-motion": "^4",
+    "next": "11.1.2",
+    "nodemon": "^2.0.13",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-responsive-carousel": "^3.2.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
